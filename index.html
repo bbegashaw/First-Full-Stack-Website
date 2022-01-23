@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chelsea Fan Page</title>
+    <link rel="stylesheet" href="css/styleIndex.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo-chelsea-2.png" alt="Chelsea Logo" width="120px">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="mens.html">Men's Squad</a></li>
+                    <li><a href="womens.html">Women's Squad</a></li>
+                    <li><a href="transfers.html">Transfer News</a></li>
+                    
+                   
+
+                </ul>
+            </nav>
+        </div>
+
+        <div class="titleBox">
+            <div class="leftCol">
+                <img src="images/azpi-png.png" alt="Azpilicueta Image" width="700px">
+            </div>
+
+            <div class="rightCol">
+                <h1>Welcome to the #1 Chelsea FC Fan Page on the Internet!</h1>
+            </div>
+        </div>
+
+
+        <div class="aboutBox">
+            <div class="leftCol">
+                <h1>Who are we</h1>
+                <p>Welcome to the # 1 fan page of Chelsea Football Club, made for the fans, by the fans! Here, we're
+                    all about the best team in the Premier League. You can view everything about the blues here from
+                    their men's and women's team, tranfer market news, and much more! This website is contantly updated
+                    to keep you up to date about everything related to Chelsea.</p>
+            </div>
+
+            <div class="rightCol">
+                <img src="images/ziyech.png" alt="Ziyech" width="640px">
+            </div>
+
+        </div>
+
+
+        <div class="newsBox">
+            <div class="leftCol">
+                <h1>Our Latest News</h1>
+                <div class="contentBox">
+                    <div class="news1">
+                        <div class="imageContent">
+                            <a
+                                href="https://www.chelseafc.com/en/news/2021/11/27/-it-needs-a-very-good-mix-to-produce-numbers-like-that----tuchel">
+                                <img src="images/chelsea-defenders.png" alt="" width="240px"></a>
+                        </div>
+                        <div class="newsContent1">
+                            <a
+                                href="https://www.chelseafc.com/en/news/2021/11/27/-it-needs-a-very-good-mix-to-produce-numbers-like-that----tuchel">
+                                <h1>‘It needs a very good mix to produce numbers like that’ – Tuchel on Chelsea’s
+                                    defensive fortitude</h1>
+                            </a>
+                            <p>4 hours ago</p>
+
+                        </div>
+
+
+                    </div>
+                    <div class="news2">
+                        <div class="imageContent">
+                            <a
+                                href="https://www.independent.co.uk/sport/football/womens_football/fran-kirby-sam-kerr-emma-hayes-champions-league-super-league-b1954668.html"><img
+                                    src="images/samkerr.jpg" alt="" width="240px"></a>
+                        </div>
+
+                        <div class="newsContent2">
+                            <a
+                                href="https://www.independent.co.uk/sport/football/womens_football/fran-kirby-sam-kerr-emma-hayes-champions-league-super-league-b1954668.html">
+                                <h1>Fran Kerr and Sam Kirby Inspire Chelsea to ruthless win over Servette</h1>
+                            </a>
+                            <p>7 hours ago</p>
+                        </div>
+
+                    </div>
+                    <div class="news3">
+                        <div class="imageContent">
+                            <a
+                                href="https://www.chelseafc.com/en/news/2021/11/26/tuchel-on-hitting-top-form-and-why-man-utd-can-t-be-underestimat">
+                                <img src="images/thuchel.jpg" alt="" width="240px"></a>
+                        </div>
+
+                        <div class="newsContent3">
+                            <a
+                                href="https://www.chelseafc.com/en/news/2021/11/26/tuchel-on-hitting-top-form-and-why-man-utd-can-t-be-underestimat">
+                                <h1>Thuchel on why Man United can't be underestimated</h1>
+                            </a>
+                            <p>14 hours ago</p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="signUpBox">
+            <div class="leftCol">
+                <h1>Join Our Community</h1>
+                <img src="images/fans.jpg" alt="">
+
+            </div>
+
+            <div class="rightCol">
+                <h2>Register Here!</h2>
+                <form action="connect.php" method="post">
+                    <div class="userInfo">
+                        <div class="inputBox">
+                            <span class="fullName">Enter Full Name: </span>
+                            <input class="nameBox" type="text" placeholder="Enter your name" size="30" name="name">
+                        </div>
+                        <div class="inputBox">
+                            <span class="email">Enter email address: </span>
+                            <input class="nameBox" type="text" placeholder="Enter email address" size="30" name="email">
+                        </div>
+                        <div class="inputBox">
+                            <div>Choose which newsletter you want to be part of:</div>
+                            <label class="containerCheck">
+                                Men's Squad Newsletter
+                                <input class="check1" type="checkbox" name="news[]" value="mens">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="containerCheck">Women's Squad Newsletter
+                                <input class="check2" type="checkbox" name="news[]" value="womens">
+                                <span class="checkmark"></span>
+                            </label>
+
+                        <div class="buttonPrimary">
+                            <input type="submit" value="Save" id="btnpr" name="save">
+                        </div>
+
+
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+
+
+
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        
+    </div>
+
+
+</body>
+
+</html>

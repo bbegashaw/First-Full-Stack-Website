@@ -1,0 +1,398 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #4d80d3;
+    font-family: Nunito, sans-serif;
+    background: linear-gradient(#4d80d3,#15243d,#351ca1, #2571ea);
+    
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+    flex: 1;
+    text-align: center;
+    font-family: Nunito, sans-serif;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li
+{
+    display: inline-block;
+    margin: 50px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.container
+{
+    width: 1800px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.titleBox
+{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    height: 500px;
+    background-color: #0b3372;
+    border: 5px solid black;
+    flex-wrap: wrap;
+    
+    
+    
+}
+.titleBox .leftCol
+{
+    flex-basis: 50%;
+    /* opacity: 40%; */
+    padding-left: 60px;
+
+}
+
+
+
+.titleBox .rightCol
+{
+    font-size: 40px;
+    flex-basis: 50%;
+    padding-right: 190px;
+    padding-bottom: 70px;
+    color: white;
+    
+}
+
+.titleBox .rightCol p{
+    padding-top: 30px;
+    font-size: 20px;
+    line-height: 40px;
+
+}
+
+.aboutBox
+{
+    margin-top: 120px;
+    border-radius: 10px;
+    height: 500px;
+    background-color: #0b3372;
+    border: 5px solid black;
+    display: flex;  
+    
+}
+
+.aboutBox .leftCol
+{
+   
+    flex-basis: 50%;
+    font-size: 40px;
+    padding-left: 80px;
+    padding-top: 90px;
+    color:white;
+}
+
+.aboutBox .leftCol p{
+    padding-top: 40px;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+
+
+.aboutBox .rightCol
+{
+    flex-basis: 50%;
+    padding-left: 100px;
+    
+}
+
+.newsBox
+{
+    margin-top: 120px;
+    border-radius: 10px;
+    height: 870px;
+    background-color: #0b3372;
+    border: 5px solid black;
+    display: flex;
+    
+    color:white;
+}
+
+.newsBox .leftCol
+{
+    font-size: 40px;
+    padding-left: 80px;
+    padding-top: 64px;
+    
+    
+}
+.contentBox
+{
+    padding-top: 30px;
+    height: 580px;
+    width: 1600px;
+    /* border: 5px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+
+.news1
+{
+    display: flex;
+    /* border: 5px solid black; */
+}
+
+.news2{
+    display: flex;
+    /* border: 5px solid black; */
+}
+
+.news3
+{
+    display: flex;
+
+}
+
+
+.newsContent1 
+{
+    font-size: 15px;
+    padding: 40px;
+    /* border: 5px solid black; */
+    
+}
+
+.news1 img{
+    position: relative;
+    top: 30px;
+}
+
+.newsContent2
+{
+    font-size: 15px;
+    padding: 40px;
+    /* border: 5px solid black; */
+    
+}
+
+.newsContent3
+{
+    font-size: 15px;
+    padding: 40px;
+    /* border: 5px solid black; */
+    
+}
+
+.fixtureBox
+{
+    margin-top: 120px;
+    border-radius: 10px;
+    
+    height: 600px;
+    background-color: #0b3372;
+    border: 5px solid black;
+    display: flex;
+    color:white;
+}
+
+.fixtureBox .leftCol
+{
+
+    flex-basis: 50%;
+    font-size: 38px;
+    padding-left: 80px;
+    padding-top: 70px;
+}
+
+.fixture1 
+{
+    padding-top: 30px;
+    
+}
+.fixture1 #watfordlogo
+{
+    position: relative;
+    top: 10px;
+}
+
+.fixture1 #chelsealogo
+{
+    position: relative;
+    bottom: 185px;
+    left: 500px;
+}
+
+.fixture1 #date
+{
+    position: relative;
+    bottom:90px;
+    left: 200px;
+}
+
+.fixtureBox .rightCol
+{
+    flex-basis: 50%;
+    font-size: 38px;
+    padding-left: 80px;
+    padding-top: 70px;
+}
+
+
+.fixture2 #juventuslogo
+{
+    position: relative;
+    bottom: 160px;
+}
+
+.fixture2 #chelsealogo2
+{
+    position: relative;
+    bottom: 387px;
+    left: 500px;
+}
+
+.fixture2 #date2
+{
+    position: relative;
+    bottom: 290px;
+    left: 200px;
+}
+
+.fixture3
+{
+    position: relative;
+    top: 260px;
+}
+
+.fixture3 #readinglogo
+{
+    position: relative;
+    bottom: 120px;
+}
+
+.fixture3 #chelsealogo3
+{
+    position: relative;
+    bottom: 330px;
+    left: 500px;
+}
+
+.fixture3 #date3
+{
+    position: relative;
+    bottom: 240px;
+    left: 200px;
+}
+
+.fixture4 #chelsealogo4
+{
+    position: relative;
+    bottom: 207px;
+    left: 500px;
+}
+
+.fixture4 #wolfsburglogo
+{
+    position: relative;
+    bottom: 20px;
+}
+
+.fixture4 #date4
+{
+    position: relative;
+    bottom: 120px;
+    left: 200px
+}
+
+.leagueTableBox
+{
+    border-radius: 10px;
+    margin-top: 120px;
+    height: 870px;
+    background-color: #0b3372;
+    border: 5px solid black;
+    display: flex;
+    color:white;
+}
+
+.leagueTableBox .leftCol
+{
+    flex-basis: 50%;
+    font-size: 25px;
+    padding-left: 80px;
+    padding-top: 70px;
+}
+
+.leagueTableBox .leftCol p
+{
+    padding-top: 60px;
+    line-height: 40px;
+}
+
+.leagueTableBox .leftCol img{
+    position: relative;
+    bottom: 20px;
+
+}
+
+
+
+.leagueTableBox .rightCol
+{
+    flex-basis: 50%;
+    font-size: 38px;
+    padding-left: 80px;
+    padding-top: 70px;
+}
+
+
+
+.table{
+    position: relative;
+    right: 25px;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 30px;
+    min-width: 300px;
+}
+
+.table thead tr{
+    background-color: #4d80d3;
+    text-align: left;
+}
+
+.table th, .table td{
+    padding: 12px 15px;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,324 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #4d80d3;
+    font-family: Nunito, sans-serif;
+    background: linear-gradient(#4d80d3,#15243d,#351ca1);
+    /* background: radial-gradient(#4d80d3,#15243d,#351ca1); */
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+    flex: 1;
+    text-align: center;
+    font-family: Nunito, sans-serif;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li
+{
+    display: inline-block;
+    margin: 50px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.container
+{
+    width: 1800px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.titleBox
+{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    height: 500px;
+    background-color: #0b3372;
+    border: 5px solid black;
+    flex-wrap: wrap;
+    
+    
+    
+}
+.titleBox .leftCol
+{
+    flex-basis: 50%;
+    /* opacity: 40%; */
+}
+
+.titleBox .rightCol
+{
+    font-size: 35px;
+    flex-basis: 50%;
+    padding-right: 100px;
+    color: white;
+}
+
+.aboutBox
+{
+    margin-top: 120px;
+    border-radius: 10px;
+    height: 500px;
+    background-color: #0b3372;
+    border: 5px solid black;
+    display: flex;  
+    
+}
+
+.aboutBox .leftCol
+{
+   
+    flex-basis: 50%;
+    font-size: 40px;
+    padding-left: 80px;
+    padding-top: 90px;
+    color:white;
+}
+
+.aboutBox .leftCol p{
+    padding-top: 40px;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+
+
+.aboutBox .rightCol
+{
+    flex-basis: 50%;
+    padding-left: 100px;
+    
+}
+
+.newsBox
+{
+    margin-top: 120px;
+    border-radius: 10px;
+    height: 800px;
+    background-color: #0b3372;
+    border: 5px solid black;
+    display: flex;
+    
+    color:white;
+}
+
+.newsBox .leftCol
+{
+    font-size: 40px;
+    padding-left: 80px;
+    padding-top: 64px;
+    
+    
+}
+.contentBox
+{
+    padding-top: 30px;
+    height: 580px;
+    width: 1600px;
+    /* border: 5px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+
+.news1
+{
+    display: flex;
+    /* border: 5px solid black; */
+}
+
+.news2{
+    display: flex;
+    /* border: 5px solid black; */
+}
+
+.news3
+{
+    display: flex;
+
+}
+
+
+.newsContent1 
+{
+    font-size: 15px;
+    padding: 40px;
+    /* border: 5px solid black; */
+    
+}
+
+.newsContent2
+{
+    font-size: 15px;
+    padding: 40px;
+    /* border: 5px solid black; */
+    
+}
+
+.newsContent3
+{
+    font-size: 15px;
+    padding: 40px;
+    /* border: 5px solid black; */
+    
+}
+
+.signUpBox
+{
+    margin-top: 120px;
+    border-radius: 10px;
+    height: 600px;
+    background-color: #0b3372;
+    border: 5px solid black;
+    display: flex;
+    color:white;
+}
+
+.signUpBox .leftCol
+{
+    flex-basis: 50%;
+    font-size: 40px;
+    padding-left: 80px;
+    padding-top: 70px;
+}
+
+.signUpBox .leftCol img{
+    padding-top: 50px;
+    border-radius: 10px;
+    
+}
+
+.signUpBox .rightCol
+{
+    flex-basis: 50%;
+    font-size: 30px;
+    padding-left: 80px;
+    padding-top: 100px;
+}
+
+.signUpBox .rightCol .userInfo
+{
+    padding-top: 65px;
+}
+
+.inputBox{
+    padding: 12px;
+}
+
+.nameBox
+{
+    font-size:20px;
+    position: relative;
+    padding: 12px;
+}
+
+.containerCheck {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    user-select: none;
+  }
+
+  .containerCheck input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+
+  .containerCheck:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+
+  .containerCheck input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+
+  .containerCheck input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  .containerCheck .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+  
+    transform: rotate(45deg);
+  }
+
+  #btnpr
+  {
+      background-color: #4d80d3;
+      font-size: 25px;
+      color: #eee;
+      border-radius: 25px;
+      width: 25%;
+      text-decoration: none;
+      height: 40px;
+      position: relative;
+      top: 12px;
+  }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
